@@ -1,12 +1,42 @@
 @font-face {
-  font-family: 'Lato';
-  src: url('https://wwwmonika1.vercel.app/Lato-Regular.ttf') format('truetype');
+  font-family: 'Aniara_Bold';
+  src: url('https://wwwmonika1.vercel.app/Aniara_Bold.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Lato';
-  src: url('https://wwwmonika1.vercel.app/Lato-Light.ttf') format('truetype');
+  font-family: 'Aniara_Regular';
+  src: url('https://wwwmonika1.vercel.app/Aniara_Regular.otf') format('truetype');
   font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo100';
+  src: url('https://wwwmonika1.vercel.app/Museo100-Regular.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo300';
+  src: url('https://wwwmonika1.vercel.app/Museo300-Regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo500';
+  src: url('https://wwwmonika1.vercel.app/Museo500-Regular.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo700';
+  src: url('https://wwwmonika1.vercel.app/Museo700-Regular.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo900';
+  src: url('https://wwwmonika1.vercel.app/Museo900-Regular.ttf') format('truetype');
+  font-weight: 900;
   font-style: normal;
 }
