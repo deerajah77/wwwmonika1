@@ -41,8 +41,8 @@
   font-style: normal;
 }
 .p, .body {
- font-family: 'Museo100' !important;
- font-weight: 100 !important;
+ font-family: 'Museo300' !important;
+ font-weight: 300 !important;
 }
 .h1, {
  font-family: 'Aniara_Bold' !important;
@@ -64,6 +64,10 @@
  font-family: 'Aniara_Bold' !important;
  font-weight: normal !important;
 }
+#unique-banner .text {
+ font-family: 'Museo300' !important;
+}
+/**/
 .homepage-texts-wrapper .top-products-wrapper {
 	display: none;
 }
