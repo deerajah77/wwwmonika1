@@ -40,3 +40,28 @@
   font-weight: 900;
   font-style: normal;
 }
+.p, {
+ font-family: 'Museo100' !important;
+ font-weight: 100 !important;
+}
+.h1, {
+ font-family: 'Aniara_Bold' !important;
+ font-weight: normal !important;
+}
+.h2 {
+ font-family: 'Aniara_Bold' !important;
+ font-weight: normal !important;
+}
+.h3, {
+ font-family: 'Aniara_Bold' !important;
+ font-weight: normal !important;
+}
+.h4 {
+ font-family: 'Aniara_Bold' !important;
+ font-weight: normal !important;
+}
+.h5 {
+ font-family: 'Aniara_Bold' !important;
+ font-weight: normal !important;
+}
+
