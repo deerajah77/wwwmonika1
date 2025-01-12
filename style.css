@@ -40,7 +40,7 @@
   font-weight: 900;
   font-style: normal;
 }
-.p, {
+.p, .body {
  font-family: 'Museo100' !important;
  font-weight: 100 !important;
 }
@@ -63,5 +63,161 @@
 .h5 {
  font-family: 'Aniara_Bold' !important;
  font-weight: normal !important;
+}
+.homepage-texts-wrapper .top-products-wrapper {
+	display: none;
+}
+/*img {
+    padding-top: 22px;
+}*/
+#header {
+  background-color: var(--color-secondary-hover);
+  /*background-image: none;
+  border-color: #e6e6e6;*/
+}
+.navigation-buttons a[data-target="login"], .navigation-buttons a[data-target="login"]:hover, .navigation-buttons a[data-target="navigation"], .navigation-buttons a[data-target="navigation"]:hover, .navigation-buttons a[data-target="search"], .navigation-buttons a[data-target="search"]:hover {
+  background-color: var(--color-secondary-hover);
+  /*color: var(--_color-header-text);*/
+}
+#footer {
+	background: #b85181 !important;
+  color: #fff !important;
+}
+.btn.btn-default, a.btn.btn-default {
+    color: var(--cookies-notice-color);
+}
+/* Základní styl pouze pro sekci s ID 'unique-banner' */
+#unique-banner {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+#unique-banner img {
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 25px; /* Obrázek jako kruh */
+    flex-shrink: 0; /* Zabraňuje zmenšení obrázku */
+}
+#unique-banner .text {
+    margin-left: 50px;
+    flex: 1; /* Zajišťuje správné roztažení textového bloku */
+}
+/* Pro mobilní zařízení */
+@media (max-width: 768px) {
+  #unique-banner {
+    flex-direction: column; /* Přepnutí na vertikální layout */
+    text-align: center; /* Vycentrování textu */
+}
+  #unique-banner img {
+    margin-bottom: 20px;
+    max-width: 350px; /* Menší obrázek pro mobil */
+    max-height: 350px;
+}
+  #unique-banner .text {
+    margin-left: 0; /* Zrušení odsazení v mobilní verzi */
+  }
+}
+
+@media (min-width:480px) {
+  #header .site-name a img {
+    max-height: 90px;
+    /*padding-top: 15px;
+    padding-bottom: 15px;*/
+  }
+}
+/**iframe, img {
+    max-width: 200% !important;
+    /*padding-top: 5px !important;
+    /*padding-bottom: 5px !important;*/
+}
+/*@media (min-width:992px) {
+  #navigation {
+    height: 100px;
+  }
+}*/
+#header .site-name a img {
+    display: block;
+    max-height: 100px;
+}
+@media (max-width:767px) {
+  #header .container {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+/*.carousel-inner > .item > a > img, .carousel-inner > .item > img {
+    padding-top: 40px;
+}*/
+@media (min-width:992px) {
+  #header .container {
+    min-height: 120px;
+  }
+}
+/*.h1, .h2, .h3, .h4, .h5, .h6, body, h1, h2, h3, h4, h5, h6 {
+  color: #fff;*/
+}
+.btn, a.btn {
+  font-weight: 600;
+}
+@media (min-width:992px) {
+  .container.navigation-wrapper .site-name {
+     flex-basis: 280px;
+  }
+}
+.container.navigation-wrapper .site-name {
+    flex: 0 1 200px;
+}
+/* Základní styl pro centrální obsah */
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.monika-container {
+  text-align: left; /* Výchozí zarovnání pro větší obrazovky */
+}
+.monika-container h4,
+.monika-container p,
+.monika-container a {
+  margin: 0;
+  line-height: 1.5;
+}
+.monika-container .social-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: left; /* Výchozí zarovnání ikon vlevo */
+}
+.monika-container .social-icons a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+.monika-container .social-icons span {
+  font-size: 30px;
+  color: White;
+  transition: color 0.3s ease;
+}
+.monika-container .social-icons span:hover {
+  color: var(--hover-color, White); /* Hover efekt */
+}
+/* Media query pro mobilní zařízení */
+@media (max-width: 768px) {
+  .monika-container {
+    text-align: center; /* Zarovnání na střed pro mobilní zobrazení */
+}
+.monika-container .social-icons {
+   justify-content: center; /* Ikony vycentrovány */
+}
+.monika-container h4 {
+   font-size: 16px; /* Menší nadpis pro mobilní zobrazení */
+   color: #fff;
+}
+.monika-container p {
+   font-size: 14px; /* Menší text pro mobilní zobrazení */
+   color: #fff;
+   }
+}
+.banner, .banner a, .banner-category, .banner-category a, .banner-wrapper, .banner-wrapper a, .carousel-inner, .carousel-inner a {
+    color: #fff;
 }
 
