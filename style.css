@@ -78,7 +78,7 @@
 }
 .shp-tabs-holder {
     border-width: 0 0 4px;
-    background-color: var(--color-secondary-hover);
+    color: var(--color-secondary-hover);
 }
 .active .shp-tab-link {
     background-color: var(--color-secondary-hover);
