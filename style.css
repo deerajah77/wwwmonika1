@@ -77,7 +77,7 @@
   }
 }
 .navigation-buttons a[data-target="login"], .navigation-buttons a[data-target="login"]:hover, .navigation-buttons a[data-target="navigation"], .navigation-buttons a[data-target="navigation"]:hover, .navigation-buttons a[data-target="search"], .navigation-buttons a[data-target="search"]:hover {
-    background-color: var(--color-secondary);
+    background-color: var(--color-secondary)!important;
     /* color: var(--_color-header-text); */
 }
 #header {
