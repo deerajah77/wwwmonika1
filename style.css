@@ -40,6 +40,11 @@
   font-weight: 900;
   font-style: normal;
 }
+@media (min-width:768px) {
+ #footer .footer-newsletter h4 {
+  color: white !important;
+  }
+}
 .p, .body {
  font-family: 'Museo300' !important;
  font-weight: 300 !important;
