@@ -56,10 +56,10 @@
 .submit-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #b85181;
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    /*font-weight: bold;*/
     border-radius: 5px;
 }
 .compact-form .form-control, .compact-form .form-control.lg {
