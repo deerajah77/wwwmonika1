@@ -48,6 +48,11 @@
 .products-block > div .p .p-bottom > div .p-tools .btn, .products-block > div .p .p-bottom > div .p-tools .btn.btn-cart {
  border-radius: 25px! important;
 }
+@media (min-width:768px) {
+  #content .btn.unveil-button, #footer .btn.unveil-button {
+   border-radius: 25px! important;
+  }
+}
 .p, .body {
  font-family: 'Museo300' !important;
  font-weight: 300 !important;
