@@ -63,6 +63,9 @@
    background-color: var(--color-primary-hover);
  }
 }
+.category-header input[type="radio"]:checked + label {
+    border-radius: 10px 10px 0px 0px!important;
+}
 .navigation-in {
     font-size: 14px;
 }
