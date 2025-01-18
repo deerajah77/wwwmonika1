@@ -50,7 +50,7 @@
 }
 @media (min-width:768px) {
   #content .btn.unveil-button, #footer .btn.unveil-button {
-   border-radius: 25px! important;
+   border-radius: 35px! important;
   }
 }
 @media (min-width:768px) {
