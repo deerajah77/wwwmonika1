@@ -53,6 +53,15 @@
    border-radius: 25px! important;
   }
 }
+.submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
 .compact-form .form-control, .compact-form .form-control.lg {
   border-radius: 25px! important;
 }
