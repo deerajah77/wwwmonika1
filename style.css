@@ -76,6 +76,10 @@
    border-radius: 10px 10px 0px 0px!important;
   }
 }
+.navigation-buttons a[data-target="login"], .navigation-buttons a[data-target="login"]:hover, .navigation-buttons a[data-target="navigation"], .navigation-buttons a[data-target="navigation"]:hover, .navigation-buttons a[data-target="search"], .navigation-buttons a[data-target="search"]:hover {
+    background-color: var(--color-secondary);
+    /* color: var(--_color-header-text); */
+}
 #header {
     background-color: var(--color-secondary);
 }
