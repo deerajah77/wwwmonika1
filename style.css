@@ -53,6 +53,11 @@
    border-radius: 25px! important;
   }
 }
+@media (min-width:768px) {
+  .banner-category a img, .banner-footer a img, .banner-wrapper a img, .banners-content a img, .footer-banner a img {
+    border-radius: 25px!important;
+  }
+}
 .submit-button {
     display: inline-block;
     padding: 10px 20px;
