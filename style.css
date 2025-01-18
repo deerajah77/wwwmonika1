@@ -40,9 +40,6 @@
   font-weight: 900;
   font-style: normal;
 }
-.h1, .h2, .h3, .h4, .h5, .h6, body, h1, h2, h3, h4, h5, h6 {
-    color: var(--cookies-notice-color);
-}
 .p, .body {
  font-family: 'Museo300' !important;
  font-weight: 300 !important;
