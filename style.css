@@ -53,9 +53,7 @@
    border-radius: 25px! important;
   }
 }
-*, ::after, ::before {
-  border-radius: 25px! important;
-}
+
 .btn.btn-default, a.btn.btn-default {
   border-radius: 25px !important;
 }
