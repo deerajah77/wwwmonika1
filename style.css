@@ -85,7 +85,7 @@
 }
 .active .shp-tab-link {
     background-color: var(--color-secondary-hover);
-    border-color: var(--color-secondary-hover) var(--color-secondary) #fff;
+    border-color: var(--color-secondary-hover) var(--color-secondary) var(--color-secondary);
     color: #fff;
 }
 .navigation-in {
