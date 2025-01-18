@@ -53,6 +53,15 @@
    border-radius: 25px! important;
   }
 }
+*, ::after, ::before {
+  border-radius: 25px! important;
+}
+.btn.btn-default, a.btn.btn-default {
+  border-radius: 25px !important;
+}
+.btn.btn-default:hover, a.btn.btn-default:hover {
+  border-radius: 25px !important;
+}
 .p, .body {
  font-family: 'Museo300' !important;
  font-weight: 300 !important;
