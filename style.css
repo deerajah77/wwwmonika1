@@ -124,6 +124,9 @@
   color: white !important;
   }
 }
+.custom-footer {
+    padding-top: 1px!important;
+}
 .products-block > div .p .p-bottom > div .p-tools .btn, .products-block > div .p .p-bottom > div .p-tools .btn.btn-cart {
  border-radius: 25px! important;
 }
