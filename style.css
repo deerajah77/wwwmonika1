@@ -100,7 +100,7 @@
 
 /* 🎯 Každý jednotlivý box */
 .box-item {
-    background-color: rgba(43, 46, 107, 0.37);  /* Světle šedé pozadí */
+    background-color: /*rgba(43, 46, 107, 0.37)*/#cee5ea;  /* Světle šedé pozadí */
     border-radius: 10px;       /* Zakulacené rohy */
     padding: 20px;             /* Odsazení uvnitř boxu */
     flex: 1 1 calc(50% - 10px); /* 50% šířka s mezerou */
