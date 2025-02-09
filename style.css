@@ -114,6 +114,10 @@
         flex: 1 1 100%; /* Každý box bude na celou šířku */
     }
 }
+iframe, img {
+    max-width: 100%;
+    border-radius: 25px;
+}
 .category-title {
     padding-top: 35px;
 }
