@@ -59,15 +59,7 @@
     gap: 20px;               /* Vytvoří mezeru mezi obrázkem a textem */
 }
 
-.image img {
-    width: 300px;            /* Nastaví velikost obrázku */
-    height: auto;            /* Zachová proporce */
-    border-radius: 10px;     /* Lehce zaoblené rohy (volitelné) */
-}
 
-.text {
-    flex: 1;                /* Text zabere zbývající místo */
-}
 
 
 
