@@ -114,6 +114,9 @@
         flex: 1 1 100%; /* Každý box bude na celou šířku */
     }
 }
+.category-title {
+    padding-top: 10px;
+}
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     padding-top: 20px;
 }
