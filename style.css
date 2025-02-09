@@ -41,7 +41,7 @@
   font-style: normal;
 }
 .reference {
-    background-color: #f9f9f9;  /* Světle šedé pozadí */
+    background-color: /*#f9f9f9*/rgba(206, 230, 235, 0.28);  /* Světle šedé pozadí */
     border-radius: 10px;       /* Zakulacené rohy */
     padding: 20px;             /* Odsazení uvnitř boxu */
     margin-bottom: 20px;       /* Mezera mezi referencemi */
