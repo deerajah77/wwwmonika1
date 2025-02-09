@@ -69,17 +69,7 @@
     flex: 1;                /* Text zabere zbývající místo */
 }
 
-/* 📱 MEDIA QUERY pro mobilní zobrazení */
-@media screen and (max-width: 768px) {
-    .content-wrapper {
-        flex-direction: column;  /* Na mobilu se obrázek a text poskládají pod sebe */
-        text-align: center;      /* Zarovná text na střed */
-    }
 
-    .image img {
-        width: 100%;            /* Obrázek zabere celou šířku na mobilu */
-    }
-}
 
 @media (min-width:768px) {
  #footer .footer-newsletter h4 {
