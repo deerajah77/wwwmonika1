@@ -45,7 +45,7 @@
     border-radius: 10px;       /* Zakulacené rohy */
     padding: 20px;             /* Odsazení uvnitř boxu */
     margin-bottom: 20px;       /* Mezera mezi referencemi */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Jemný stín pro efekt "kartičky" */
+   
 }
 
 .reference h4 {
