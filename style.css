@@ -53,6 +53,33 @@
     font-weight: bold;
     color: #333;    /* Tmavší barva textu pro lepší čitelnost */
 }
+.content-wrapper {
+    display: flex;            /* Flexbox pro rozložení na PC */
+    align-items: center;      /* Zarovná obrázek a text na střed */
+    gap: 20px;               /* Vytvoří mezeru mezi obrázkem a textem */
+}
+
+.image img {
+    width: 300px;            /* Nastaví velikost obrázku */
+    height: auto;            /* Zachová proporce */
+    border-radius: 10px;     /* Lehce zaoblené rohy (volitelné) */
+}
+
+.text {
+    flex: 1;                /* Text zabere zbývající místo */
+}
+
+/* 📱 MEDIA QUERY pro mobilní zobrazení */
+@media screen and (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;  /* Na mobilu se obrázek a text poskládají pod sebe */
+        text-align: center;      /* Zarovná text na střed */
+    }
+
+    .image img {
+        width: 100%;            /* Obrázek zabere celou šířku na mobilu */
+    }
+}
 
 @media (min-width:768px) {
  #footer .footer-newsletter h4 {
