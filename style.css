@@ -58,31 +58,33 @@
     align-items: center;      /* Zarovná obrázek a text na střed */
     gap: 20px;               /* Vytvoří mezeru mezi obrázkem a textem */
 }
-
-/* Stylujeme pouze sekci s ID 'unique-section' */
+/* Unikátní styl pro tuto sekci */
 #unique-section {
     width: 100%;             
-    display: flex;           
-    justify-content: center;  
-    padding: 20px;           
+    display: flex;
+    justify-content: center;  /* Vycentrování na střed */
+    padding: 20px;
 }
 
 #unique-section .content-wrapper {
-    display: flex;            
-    align-items: center;      
-    gap: 20px;                
-    width: 100%;             
-    max-width: 1200px;        
-    margin: 0 auto;          
-    padding: 20px;           
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* Správné vycentrování */
+    padding: 20px;
 }
 
+/* Obrázek vlevo, text vpravo */
 #unique-section .image img {
     width: 300px;            
     height: auto;            
     border-radius: 10px;    
+    flex-shrink: 0; /* Zabrání deformaci */
 }
 
+/* Text zabere zbývající místo */
 #unique-section .text {
     flex: 1;                
 }
@@ -90,14 +92,19 @@
 /* 📱 MEDIA QUERY pro mobilní zobrazení */
 @media screen and (max-width: 768px) {
     #unique-section .content-wrapper {
-        flex-direction: column;  
-        text-align: center;      
+        flex-direction: column;
+        text-align: center;
     }
 
     #unique-section .image img {
-        width: 100%;            
+        width: 100%;
+    }
+
+    #unique-section .text {
+        margin-left: 0;
     }
 }
+
 
 @media (min-width:768px) {
  #footer .footer-newsletter h4 {
