@@ -81,7 +81,7 @@
 @media screen and (max-width: 768px) {
     #unique-section .content-wrapper {
         flex-direction: column;  
-        text-align: center;      
+        text-align: left;      
     }
 
     #unique-section .image img {
