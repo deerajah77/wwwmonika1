@@ -306,11 +306,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     /*padding-top: 5px !important;
     /*padding-bottom: 5px !important;*/
 }
-/*@media (min-width:992px) {
+@media (min-width:992px) {
   #navigation {
-    height: 100px;
+    height: 50px;
   }
-}*/
+}
 /* #header .site-name a img {
     display: block;
     max-height: 100px;
