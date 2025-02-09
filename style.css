@@ -114,7 +114,11 @@
         flex: 1 1 100%; /* Každý box bude na celou šířku */
     }
 }
-
+@media (min-width:768px) and (max-width:1199px) {
+    #footer .footer-newsletter .newsletter-header {
+        padding-top: 25px;
+    }
+}
 @media (min-width:768px) {
  #footer .footer-newsletter h4 {
   color: white !important;
