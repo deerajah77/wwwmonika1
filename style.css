@@ -94,7 +94,7 @@
     flex-wrap: wrap;       /* Umožní přechod na nový řádek */
     gap: 20px;             /* Rozestup mezi boxy */
     justify-content: center; /* Centrované na střed */
-    max-width: 800px;      /* Omezíme šířku pro lepší vzhled */
+    max-width: 1000px;      /* Omezíme šířku pro lepší vzhled */
     margin: 0 auto;        /* Zarovná na střed stránky */
 }
 
@@ -105,7 +105,7 @@
     padding: 20px;             /* Odsazení uvnitř boxu */
     flex: 1 1 calc(50% - 20px); /* 50% šířka s mezerou */
     text-align: center;        /* Zarovnání textu na střed */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Jemný stín */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Jemný stín */
 }
 
 /* 📱 MEDIA QUERY - Na mobilu se složí pod sebe */
