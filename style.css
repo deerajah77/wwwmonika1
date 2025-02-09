@@ -56,7 +56,7 @@
 #unique-section {
     width: 100%;             
     display: flex;           
-    justify-content: center;  
+    justify-content: left;  
     padding: 20px;           
 }
 #unique-section .content-wrapper {
