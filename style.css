@@ -56,7 +56,7 @@
     width: 100%;             
     display: flex;           
     justify-content: left;  
-    padding: 50px;           
+    /*padding: 50px;*/           
 }
 #unique-section .content-wrapper {
     display: flex;            
