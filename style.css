@@ -60,7 +60,7 @@
 }
 
 .content-wrapper-unique {
-    display: flex;            /* Flexbox pro rozložení na PC */
+    
     align-items: center;      /* Zarovná obrázek a text na střed */
     gap: 20px;               /* Vytvoří mezeru mezi obrázkem a textem */
 }
