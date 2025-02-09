@@ -115,7 +115,7 @@
     }
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-    padding-top: 0px;
+    padding-top: 10px;
 }
 @media (min-width:768px) {
     #footer .footer-bottom, #footer .footer-newsletter, #footer .footer-rows {
