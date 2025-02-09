@@ -119,6 +119,11 @@
         padding-top: 50px;
     }
 }
+@media (min-width:768px) and (max-width:1199px) {
+    #footer .footer-newsletter form {
+        padding-top: 50px;
+    }
+}
 @media (min-width:768px) {
  #footer .footer-newsletter h4 {
   color: white !important;
