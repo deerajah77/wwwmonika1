@@ -292,7 +292,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 #header .site-name a img {
-    max-height: 65px;
+    max-height: 50px;
 }
 @media (min-width:480px) {
   #header .site-name a img {
