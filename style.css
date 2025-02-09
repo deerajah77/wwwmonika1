@@ -61,7 +61,7 @@
 #unique-section .content-wrapper {
     display: flex;            
     align-items: center;      
-    gap: 10px;                
+    gap: 50px;                
     width: 100%;             
     max-width: 1200px;        
     margin: 0 auto;          
