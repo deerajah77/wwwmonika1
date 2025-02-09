@@ -71,7 +71,7 @@
     border-radius: 10px;     /* Lehce zaoblené rohy (volitelné) */
 }
 
-.text {
+.text-unique {
     flex: 1;                /* Text zabere zbývající místo */
 }
 
