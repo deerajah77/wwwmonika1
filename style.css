@@ -103,7 +103,7 @@
     background-color: #f9f9f9;  /* Světle šedé pozadí */
     border-radius: 10px;       /* Zakulacené rohy */
     padding: 20px;             /* Odsazení uvnitř boxu */
-    flex: 1 1 calc(55% - 10px); /* 50% šířka s mezerou */
+    flex: 1 1 calc(50% - 10px); /* 50% šířka s mezerou */
     text-align: center;        /* Zarovnání textu na střed */
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Jemný stín */
 }
