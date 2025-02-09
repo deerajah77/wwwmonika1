@@ -94,7 +94,7 @@
     flex-wrap: wrap;       /* Umožní přechod na nový řádek */
     gap: 20px;             /* Rozestup mezi boxy */
     justify-content: center; /* Centrované na střed */
-    max-width: 1000px;      /* Omezíme šířku pro lepší vzhled */
+    max-width: 800px;      /* Omezíme šířku pro lepší vzhled */
     margin: 0 auto;        /* Zarovná na střed stránky */
 }
 
@@ -103,7 +103,7 @@
     background-color: #f9f9f9;  /* Světle šedé pozadí */
     border-radius: 10px;       /* Zakulacené rohy */
     padding: 20px;             /* Odsazení uvnitř boxu */
-    flex: 1 1 calc(75% - 20px); /* 50% šířka s mezerou */
+    flex: 1 1 calc(65% - 20px); /* 50% šířka s mezerou */
     text-align: center;        /* Zarovnání textu na střed */
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Jemný stín */
 }
