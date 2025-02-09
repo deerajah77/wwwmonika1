@@ -311,10 +311,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     height: 100px;
   }
 }*/
-#header .site-name a img {
+/* #header .site-name a img {
     display: block;
     max-height: 100px;
-}
+}*/
 @media (max-width:767px) {
   #header .container {
     padding-bottom: 10px;
