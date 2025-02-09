@@ -1,4 +1,3 @@
-/* 🎨 FONTY */
 @font-face {
   font-family: 'Aniara_Bold';
   src: url('https://wwwmonika1.vercel.app/Aniara_Bold.otf') format('truetype');
@@ -9,6 +8,12 @@
   font-family: 'Aniara_Regular';
   src: url('https://wwwmonika1.vercel.app/Aniara_Regular.otf') format('truetype');
   font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo100';
+  src: url('https://wwwmonika1.vercel.app/Museo100-Regular.ttf') format('truetype');
+  font-weight: 100;
   font-style: normal;
 }
 @font-face {
@@ -23,125 +28,306 @@
   font-weight: 500;
   font-style: normal;
 }
-
-/* 🎯 REFERENCE */
+@font-face {
+  font-family: 'Museo700';
+  src: url('https://wwwmonika1.vercel.app/Museo700-Regular.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo900';
+  src: url('https://wwwmonika1.vercel.app/Museo900-Regular.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
 .reference {
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-.reference h4 {
-    margin-top: 0;
-    font-weight: bold;
-    color: #333;
+    background-color: #f9f9f9;  /* Světle šedé pozadí */
+    border-radius: 10px;       /* Zakulacené rohy */
+    padding: 20px;             /* Odsazení uvnitř boxu */
+    margin-bottom: 20px;       /* Mezera mezi referencemi */
+   
 }
 
-/* 🖼️ UNIKÁTNÍ SEKCE - TEXT A OBRÁZEK */
+.reference h4 {
+    margin-top: 0;  /* Aby nadpis nebyl moc vysoko */
+    font-weight: bold;
+    color: #333;    /* Tmavší barva textu pro lepší čitelnost */
+}
+.content-wrapper {
+    display: flex;            /* Flexbox pro rozložení na PC */
+    align-items: center;      /* Zarovná obrázek a text na střed */
+    gap: 20px;               /* Vytvoří mezeru mezi obrázkem a textem */
+}
 #unique-section {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+    width: 100%;             
+    display: flex;           
+    justify-content: center;  
+    padding: 20px;           
 }
 #unique-section .content-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    display: flex;            
+    align-items: center;      
+    gap: 20px;                
+    width: 100%;             
+    max-width: 1200px;        
+    margin: 0 auto;          
+    padding: 20px;           
 }
 #unique-section .image img {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    flex-shrink: 0;
+    width: 300px;            
+    height: auto;            
+    border-radius: 10px;    
 }
+
 #unique-section .text {
-    flex: 1;
+    flex: 1;                
 }
 
 /* 📱 MEDIA QUERY pro mobilní zobrazení */
 @media screen and (max-width: 768px) {
     #unique-section .content-wrapper {
-        flex-direction: column;
-        text-align: center;
+        flex-direction: column;  
+        text-align: center;      
     }
+
     #unique-section .image img {
-        width: 100%;
+        width: 100%;            
     }
 }
 
-/* 🏅 UNIKÁTNÍ BANNER */
+@media (min-width:768px) {
+ #footer .footer-newsletter h4 {
+  color: white !important;
+  }
+}
+.products-block > div .p .p-bottom > div .p-tools .btn, .products-block > div .p .p-bottom > div .p-tools .btn.btn-cart {
+ border-radius: 25px! important;
+}
+@media (min-width:768px) {
+  #content .btn.unveil-button, #footer .btn.unveil-button {
+   border-radius: 35px! important;
+  }
+}
+@media (min-width:768px) {
+ .banner-category a img, .banner-footer a img, .banner-wrapper a img, .banners-content a img, .footer-banner a img {
+   border-radius: 25px!important;
+  }
+}
+@media (min-width:992px) {
+ .navigation-in {
+   background-color: var(--color-primary-hover);
+ }
+}
+.category-header input[type="radio"]:checked + label {
+  border-radius: 10px 10px 0px 0px!important;
+}
+@media (min-width:992px) {
+ .category-header input[type="radio"] + label {
+   border-radius: 10px 10px 0px 0px!important;
+  }
+}
+@media (min-width:1200px) {
+ .shp-tabs-holder ul.shp-tabs li a {
+   border-radius: 10px 10px 0px 0px!important;
+  }
+}
+/*.h1, .h2, .h3, .h4, .h5, .h6, body, h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}*/
+.p {
+    border-color: rgba(230, 230, 230, 0);
+}
+.navigation-buttons a[data-target="login"], .navigation-buttons a[data-target="login"]:hover, .navigation-buttons a[data-target="navigation"], .navigation-buttons a[data-target="navigation"]:hover, .navigation-buttons a[data-target="search"], .navigation-buttons a[data-target="search"]:hover {
+    background-color: var(--color-secondary)!important;
+    /* color: var(--_color-header-text); */
+}
+#header {
+    background-color: var(--color-secondary)!important;
+}
+.shp-tabs-holder {
+    border-width: 0 0 4px;
+}
+.shp-tabs, .shp-tabs-holder {
+    background-color: transparent;
+    border-color: var(--color-primary-hover);
+}
+.active .shp-tab-link {
+    background-color: var(--color-secondary);
+    border-color: var(--color-primary-hover) var(--color-secondary) var(--color-secondary);
+    color: #fff;
+}
+.navigation-in {
+    font-size: 14px;
+}
+.submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b85181;
+    color: white;
+    text-decoration: none;
+    /*font-weight: bold;*/
+    border-radius: 5px;
+}
+.compact-form .form-control, .compact-form .form-control.lg {
+  border-radius: 25px! important;
+}
+.btn.btn-default, a.btn.btn-default {
+  border-radius: 25px !important;
+}
+.btn.btn-default:hover, a.btn.btn-default:hover {
+  border-radius: 25px !important;
+}
+.p, .body {
+ font-family: 'Museo300' !important;
+ font-weight: 300 !important;
+}
+.h1, {
+ font-family: 'Aniara_Bold' !important;
+ font-weight: normal !important;
+}
+.h2 {
+ font-family: 'Aniara_Bold' !important;
+ font-weight: normal !important;
+}
+.h3, {
+ font-family: 'Aniara_Bold' !important;
+ font-weight: normal !important;
+}
+.h4 {
+ font-family: 'Aniara_Bold' !important;
+ font-weight: normal !important;
+}
+.h5 {
+ font-family: 'Aniara_Bold' !important;
+ font-weight: normal !important;
+}
+#unique-banner .text {
+ font-family: 'Museo300' !important;
+}
+/**/
+.homepage-texts-wrapper .top-products-wrapper {
+	display: none;
+}
+/*img {
+    padding-top: 22px;
+}*/
+#header {
+  background-color: var(--color-secondary-hover);
+  /*background-image: none;
+  border-color: #e6e6e6;*/
+}
+.navigation-buttons a[data-target="login"], .navigation-buttons a[data-target="login"]:hover, .navigation-buttons a[data-target="navigation"], .navigation-buttons a[data-target="navigation"]:hover, .navigation-buttons a[data-target="search"], .navigation-buttons a[data-target="search"]:hover {
+  background-color: var(--color-secondary-hover);
+  /*color: var(--_color-header-text);*/
+}
+#footer {
+	background: #b85181 !important;
+  color: #fff !important;
+}
+.btn.btn-default, a.btn.btn-default {
+    color: var(--cookies-notice-color);
+}
+/* Základní styl pouze pro sekci s ID 'unique-banner' */
 #unique-banner {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 20px 0;
-    padding: 20px;
 }
 #unique-banner img {
     max-width: 600px;
     max-height: 600px;
-    border-radius: 25px;
-    flex-shrink: 0;
+    border-radius: 25px; /* Obrázek jako kruh */
+    flex-shrink: 0; /* Zabraňuje zmenšení obrázku */
 }
 #unique-banner .text {
     margin-left: 50px;
-    flex: 1;
+    flex: 1; /* Zajišťuje správné roztažení textového bloku */
 }
-
-/* 📱 MEDIA QUERY pro unikátní banner */
+/* Pro mobilní zařízení */
 @media (max-width: 768px) {
-    #unique-banner {
-        flex-direction: column;
-        text-align: center;
-    }
-    #unique-banner img {
-        margin-bottom: 20px;
-        max-width: 350px;
-        max-height: 350px;
-    }
-    #unique-banner .text {
-        margin-left: 0;
-    }
+  #unique-banner {
+    flex-direction: column; /* Přepnutí na vertikální layout */
+    text-align: center; /* Vycentrování textu */
+}
+  #unique-banner img {
+    margin-bottom: 20px;
+    max-width: 350px; /* Menší obrázek pro mobil */
+    max-height: 350px;
+}
+  #unique-banner .text {
+    margin-left: 0; /* Zrušení odsazení v mobilní verzi */
+  }
 }
 
-/* 🏠 OBECNÉ STYLY */
+@media (min-width:480px) {
+  #header .site-name a img {
+    max-height: 90px;
+    /*padding-top: 15px;
+    padding-bottom: 15px;*/
+  }
+}
+/**iframe, img {
+    max-width: 200% !important;
+    /*padding-top: 5px !important;
+    /*padding-bottom: 5px !important;*/
+}
+/*@media (min-width:992px) {
+  #navigation {
+    height: 100px;
+  }
+}*/
+#header .site-name a img {
+    display: block;
+    max-height: 100px;
+}
+@media (max-width:767px) {
+  #header .container {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+/*.carousel-inner > .item > a > img, .carousel-inner > .item > img {
+    padding-top: 40px;
+}*/
+@media (min-width:992px) {
+  #header .container {
+    min-height: 120px;
+  }
+}
+/*.h1, .h2, .h3, .h4, .h5, .h6, body, h1, h2, h3, h4, h5, h6 {
+  color: #fff;*/
+}
 .btn, a.btn {
   font-weight: 600;
 }
-
-/* 🛠️ Oprava paddingu u obrázků */
-img {
-    padding-top: 0 !important;
+@media (min-width:992px) {
+  .container.navigation-wrapper .site-name {
+     flex-basis: 280px;
+  }
 }
-
-/* 🏁 NAVIGACE & HEADER */
-#header {
-    background-color: var(--color-secondary-hover);
+.container.navigation-wrapper .site-name {
+    flex: 0 1 200px;
 }
-
-/* 🔥 FOOTER */
-#footer {
-	background: #b85181 !important;
-    color: #fff !important;
+/* Základní styl pro centrální obsah */
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
-
-/* 🏆 MONIKA CONTAINER */
 .monika-container {
-  text-align: left;
+  text-align: left; /* Výchozí zarovnání pro větší obrazovky */
 }
-.monika-container h4, .monika-container p, .monika-container a {
+.monika-container h4,
+.monika-container p,
+.monika-container a {
   margin: 0;
   line-height: 1.5;
 }
 .monika-container .social-icons {
   margin-top: 20px;
   display: flex;
-  justify-content: left;
+  justify-content: left; /* Výchozí zarovnání ikon vlevo */
 }
 .monika-container .social-icons a {
   text-decoration: none;
@@ -153,23 +339,25 @@ img {
   transition: color 0.3s ease;
 }
 .monika-container .social-icons span:hover {
-  color: var(--hover-color, White);
+  color: var(--hover-color, White); /* Hover efekt */
 }
-
-/* 📱 MEDIA QUERY pro MONIKA CONTAINER */
+/* Media query pro mobilní zařízení */
 @media (max-width: 768px) {
   .monika-container {
-    text-align: center;
-  }
-  .monika-container .social-icons {
-    justify-content: center;
-  }
-  .monika-container h4 {
-    font-size: 16px;
+    text-align: center; /* Zarovnání na střed pro mobilní zobrazení */
+}
+.monika-container .social-icons {
+   justify-content: center; /* Ikony vycentrovány */
+}
+.monika-container h4 {
+   font-size: 16px; /* Menší nadpis pro mobilní zobrazení */
+   color: #fff;
+}
+.monika-container p {
+   font-size: 14px; /* Menší text pro mobilní zobrazení */
+   color: #fff;
+   }
+}
+.banner, .banner a, .banner-category, .banner-category a, .banner-wrapper, .banner-wrapper a, .carousel-inner, .carousel-inner a {
     color: #fff;
-  }
-  .monika-container p {
-    font-size: 14px;
-    color: #fff;
-  }
 }
