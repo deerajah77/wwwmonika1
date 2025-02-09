@@ -47,7 +47,6 @@
     margin-bottom: 20px;       /* Mezera mezi referencemi */
    
 }
-
 .reference h4 {
     margin-top: 0;  /* Aby nadpis nebyl moc vysoko */
     font-weight: bold;
@@ -62,11 +61,11 @@
 #unique-section .content-wrapper {
     display: flex;            
     align-items: center;      
-    gap: 20px;                
+    gap: 10px;                
     width: 100%;             
     max-width: 1200px;        
     margin: 0 auto;          
-    padding: 20px;           
+    padding: 50px;           
 }
 #unique-section .image img {
     width: 500px;            
